@@ -3,10 +3,10 @@ Contributors: nsp-code, tdgu
 Donate link: http://www.nsp-code.com/donate.php
 Tags: post order, posts order, post sort, posts sort, post types order
 Requires at least: 2.8
-Tested up to: 6.6.1
-Stable tag: 2.2.6
+Tested up to: 6.6.2
+Stable tag: 2.3
 
-Sort Posts and custom Post Type Objects (custom post types) using a Drag and Drop Sortable JavaScript AJAX interface or default WordPress dashboard. 
+Sort posts and custom post type objects using a drag-and-drop, sortable JavaScript AJAX interface, or through the default WordPress dashboard 
 
 == Description ==
 
@@ -34,7 +34,26 @@ If for some reason the post order does not update on your front side, you either
 
 <br />Something is wrong with this plugin on your site? Just use the forum or get in touch with us at <a target="_blank" href="http://www.nsp-code.com">Contact</a> and we'll check it out.
 
-<br />Need More? Check out the advanced version of this plugin at <a target="_blank" href="http://www.nsp-code.com/premium-plugins/wordpress-plugins/advanced-post-types-order/">Advanced Post Types Order</a> which include Hierarchically post types order, Manual / Automatic Sorting, Individual Categories Order, Conditionals to apply, Paginations for large list, Mobile ready, Enhanced Interface, Plugins compatibility (MultiSite Network Support, WPML, Polylang, WooCommerce, WP E-Commerce, Platform Pro, Genesis etc), font side re-order interface,  ... and many more !!
+
+= Need advanced features ? = 
+For advanced features and functionality, check out the extended version of this plugin at <a target="_blank" href="http://www.nsp-code.com/premium-plugins/wordpress-plugins/advanced-post-types-order/">Advanced Post Types Order</a>:
+ * Hierarchically post types order
+ * Manual Drag & Drop / Automatic Sorting
+ * Specify exact area where to apply through conditionals
+ * Advanced query interface filtering and complex sorts including multiple post types and taxonomies
+ * Posts Order by Custom Taxonomies
+ * Enhanced Interface, List / Grid View
+ * Allow Interface Filters (Categories, Dates, Search etc)
+ * Post Types Thumbnails
+ * Advanced query usage
+ * MultiSite Network Support, WPML, Polylang, WooCommerce, WP E-Commerce, Platform Pro, Genesis etc
+ * WPML 100% compatibility with sort synchronization across languages
+ * Mobile Touch Drag & Drop Ready
+ * Sort interfaces through admin and front end
+ * Pagination for sort lists
+ * Free Updates
+ * Free Support
+
 
 <br />
 <br />This plugin is developed by <a target="_blank" href="http://www.nsp-code.com">Nsp-Code</a>
@@ -93,6 +112,12 @@ Consider upgrading to our advanced version of this plugin at a very resonable pr
 
 
 == Change Log ==
+
+= 2.3 = 
+ - Enhanced re-order interface to better align with the default WordPress styling.
+ - Added additional object actions (e.g., Edit, View) directly within each item row. New setting to control the visibility of actions.
+ - Introduced new filters for extending the re-order table: pto/interface/table/thead, pto/interface/table/tfoot, and pto/interface/table/tbody.
+ - Completed compatibility check and tagged update for WordPress 6.6.2.
 
 = 2.2.6 = 
  - Remove boolval on the filter 'pto/posts_orderby' to avoid returning wrong FALSE.
